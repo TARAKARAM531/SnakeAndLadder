@@ -13,7 +13,7 @@ public class Game {
     Dice di;
     Map<int,Carrier> LS;
 
-    public Game(List<Player> players, Map<int, Carrier> LS) {
+    public Game(List<Player> players, Map<Integer, Carrier> LS) {
         this.players = players;
         this.LS = LS;
     }
