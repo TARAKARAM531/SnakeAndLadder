@@ -24,4 +24,16 @@ public class Player {
 
 
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setSymbol(char symbol) {
+        this.symbol = symbol;
+    }
+
+    public void setCurrentposition(int currentposition) {
+        this.currentposition = currentposition;
+    }
 }
